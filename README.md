@@ -36,15 +36,15 @@ Train the generator model by runing "python wgan-v2.py". The model will be saved
 ### Step 4
 Generate materials by runing "python generate_crystal.py --n_samples=1000". Argument "n_samples" controls how many number you will generate and the data will be saved under directory "generated_mat/sample-1000".
 
-###Step 5
+### Step 5
 Runing "python pymatgen_valid.py --n_samples=1000" will generate two folders under directory "generated_mat/sample-1000". The folder "tmp-charge-cifs" saves the valid CIFs recognized by pymatgen. The folder "tmp-charge-cifs" saves the crystal structures with zero charge. 
 
-###Step 6
+### Step 6
 For further analysis, run "python build_repeating_cifs_stru.py --n_samples=1000" and "python build_unique_records.py --n_samples=1000", which build a tree structure for repeating CIFs and unique CIFs csv file under directory "generated_mat/sample-1000".
 
-##Training data used in our work
+## Training data used in our work
 
-In file [oqmd-dat.csv](https://github.com/MilesZhao/CubicGAN/blob/main/data/oqmd-dat.csv), we show the IDs of materials in OQMD.
+In file [oqmd-dat.csv](https://github.com/MilesZhao/CubicGAN/blob/main/data/oqmd-dat.csv), we show the IDs and other information of materials in OQMD.
 
 |Total|Fm-3m|F-43m|Pm-3m|unique formula|
 | :--- | :---: | :---: | :---: | :---: |
