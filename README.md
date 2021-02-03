@@ -8,7 +8,7 @@ Created by Yong Zhao
 
 ## Introduction
 
-This repository contains the implementation of CubicGAN.
+This repository contains the implementation of CubicGAN. You can visit [Carolina Materials Database](www.carolinamatdb.org) for more info.
 
 ## Requirement
 python 3.7  
