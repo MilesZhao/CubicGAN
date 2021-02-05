@@ -10,7 +10,7 @@ Created by Yong Zhao
 
 This repository contains the implementation of CubicGAN. You can visit [Carolina Materials Database](http://www.carolinamatdb.org/) for more info.
 
-## Requirement
+## Prerequisite 
 python 3.7  
 tensorflow-gpu==2.2.0  
 pymatgen==2020.3.13  
