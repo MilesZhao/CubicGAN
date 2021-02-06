@@ -55,7 +55,7 @@ Generate materials by runing
 python generate_crystal.py --n_samples=1000
 ``` 
 
-Argument `n_samples` controls how many number you will generate and the data will be saved under directory `generated_mat/sample-1000`.
+Argument `n_samples` controls how many materials you will generate and the data will be saved under directory `generated_mat/sample-1000`.
 
 ### Step 5
 Runing 
