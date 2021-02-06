@@ -23,7 +23,14 @@ we recommend that you build a virtural environment running the code.
 ## How to use the code
 
 ### Step 1
-Once you download the code to your machine, you need to make three folders to the project root directory. The three folders are `logs`, `models`, and `generated_mat`. The folder `logs` saves training loss of discriminator and generator. The folder `models` saves trained models. The folder `generated_mat` saves your generated materials information. We keep 100 cleaned CIFs in folder `data/trn-cifs/`, you can use them for trying this code. Just calling "python chain.py" can let you experience whole process. If you want to build your own training work, you might need below steps.
+Once you download the code to your machine, you need to make three folders to the project root directory. The three folders are `logs`, `models`, and `generated_mat`. The folder `logs` saves training loss of discriminator and generator. The folder `models` saves trained models. The folder `generated_mat` saves your generated materials information. We keep 100 cleaned CIFs in folder `data/trn-cifs/`, you can use them for trying this code. Just calling 
+```bash
+python chain.py
+```
+can let you experience whole process. If you want to build your own training work, you might need below steps.
+
+#### Generate materials with a pre-trained model
+Under directory 'pre-trained/', we uploaded the ternary generator model. If you want use the pre-trained model, you can simply change the [load model](https://github.com/MilesZhao/CubicGAN/blob/3c18b2619be9e243f885e652ad5478fe9f1dde44/generate_crystal.py#L137) in 'generate_crystal.py' and then you directly starting from **Step 4** to generate samples.
 
 ### Step 2
 Before you start to run the code, you have to collect the training data by yourself from open databases (e.g., [OQMD](http://oqmd.org/download/)). You have to be sure that you convert the downloaded crystal strucutes to symmetrized CIFs and select materials only with atom position of multiplicative factor of 0.25. Then, you can replace the given CIFs in folder `data/trn-cifs/` and run 
