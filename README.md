@@ -30,7 +30,7 @@ python chain.py
 can let you experience whole process. If you want to build your own training work, you might need below steps.
 
 #### Generate materials with a pre-trained model
-Under directory 'pre-trained/', we uploaded the ternary generator model. If you want use the pre-trained model, you can simply change the [load model](https://github.com/MilesZhao/CubicGAN/blob/3c18b2619be9e243f885e652ad5478fe9f1dde44/generate_crystal.py#L137) in 'generate_crystal.py' and then you directly starting from **Step 4** to generate samples.
+Under directory `pre-trained/`, we uploaded the ternary generator model. If you want use the pre-trained model, you can simply change the [load model](https://github.com/MilesZhao/CubicGAN/blob/3c18b2619be9e243f885e652ad5478fe9f1dde44/generate_crystal.py#L137) in `generate_crystal.py` and then you can directly start from **Step 4** to generate samples.
 
 ### Step 2
 Before you start to run the code, you have to collect the training data by yourself from open databases (e.g., [OQMD](http://oqmd.org/download/)). You have to be sure that you convert the downloaded crystal strucutes to symmetrized CIFs and select materials only with atom position of multiplicative factor of 0.25. Then, you can replace the given CIFs in folder `data/trn-cifs/` and run 
