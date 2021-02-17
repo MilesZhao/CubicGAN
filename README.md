@@ -84,6 +84,7 @@ In file [oqmd-dat.csv](https://github.com/MilesZhao/CubicGAN/blob/main/data/oqmd
 |375749|186344|184162|5243|249646|
 
 
-
+## License
+CubicGAN is released under the MIT License.
 
 
