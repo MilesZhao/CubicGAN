@@ -77,7 +77,7 @@ which build a tree structure for repeating CIFs and unique CIFs csv file under d
 
 ## Training data used in our work
 
-In file [oqmd-dat.csv](https://github.com/MilesZhao/CubicGAN/blob/main/data/oqmd-dat.csv), we show the IDs and other information of materials in OQMD.
+In file [oqmd-dat.csv](https://github.com/MilesZhao/CubicGAN/blob/main/data/oqmd-dat.csv), we show the IDs and other information of ternary materials in OQMD.
 
 |Total|Fm-3m|F-43m|Pm-3m|unique formula|
 | :--- | :---: | :---: | :---: | :---: |
