@@ -25,7 +25,7 @@ def function(file):
     #remove materials having more than three base atoms 
     occu = np.array(block['_atom_site_occupancy']).astype(float)
 
-    if len(bases)==3 and all(occu == 1.0):
+    if len(bases)==3 and len(set(bases))==3 and all(occu == 1.0):
         # print(file,bases)
 
         xs = np.array(block['_atom_site_fract_x']).reshape((3,1))
