@@ -6,6 +6,23 @@
 
 Created by Yong Zhao
 
+## how to cite
+
+Please cite the following work if you want to use CubicGAN.
+```
+@article{zhao2021high,
+  title={High-throughput discovery of novel cubic crystal materials using deep generative neural networks},
+  author={Zhao, Yong and Al-Fahdi, Mohammed and Hu, Ming and Siriwardane, Edirisuriya MD and Song, Yuqi and Nasiri, Alireza and Hu, Jianjun},
+  journal={Advanced Science},
+  volume={8},
+  number={20},
+  pages={2100566},
+  year={2021},
+  publisher={Wiley Online Library}
+}
+```
+
+
 ## Introduction
 
 This repository contains the implementation of CubicGAN. You can visit [Carolina Materials Database](http://www.carolinamatdb.org/) for more info.
